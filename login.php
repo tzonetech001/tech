@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $user = $result->fetch_assoc();
         
         if (password_verify($password, $user['password'])) {
-            unset($user['password']); // Remove password from response
+            unset($user['password']); 
             echo json_encode(["success" => true, "message" => "Login successful", "user" => $user]);
         } else {
             echo json_encode(["success" => false, "message" => "Invalid password"]);
