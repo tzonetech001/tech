@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
-        $user = $result->fetch_assoc();
+        $user = $result->fetch_assoc(); //fetch data
         
         if (password_verify($password, $user['password'])) {
             unset($user['password']); 
