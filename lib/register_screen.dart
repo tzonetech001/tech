@@ -39,16 +39,16 @@ class RegisterScreen extends StatelessWidget {
                     size: 60,
                     color: Colors.blue.shade700,
                   ),
-                  SizedBox(height: 20),
+                  SizedBox(height: 18),
                   Text(
                     'Create Account',
                     style: TextStyle(
-                      fontSize: 24,
+                      fontSize: 22,
                       fontWeight: FontWeight.bold,
                       color: Colors.blue.shade900,
                     ),
                   ),
-                  SizedBox(height: 20),
+                  SizedBox(height: 19),
                   TextFormField(
                     controller: firstNameController,
                     decoration: InputDecoration(
@@ -65,7 +65,7 @@ class RegisterScreen extends StatelessWidget {
                       return null;
                     },
                   ),
-                  SizedBox(height: 16),
+                  SizedBox(height: 15),
                   TextFormField(
                     controller: lastNameController,
                     decoration: InputDecoration(
