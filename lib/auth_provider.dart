@@ -11,7 +11,6 @@ class AuthProvider extends ChangeNotifier {
   bool get isLoading => _isLoading;
 
 
-// For CHROME/WEB:
 final String baseUrl = 'http://localhost/tzonetech';
   
   // Register method
