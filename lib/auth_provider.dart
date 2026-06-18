@@ -13,7 +13,7 @@ class AuthProvider extends ChangeNotifier {
 
 final String baseUrl = 'http://localhost/tzonetech';
   
-  // Register method
+  
   Future<Map<String, dynamic>> register({
     required String firstName,
     required String lastName,
