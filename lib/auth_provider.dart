@@ -26,7 +26,7 @@ final String baseUrl = 'http://localhost/tzonetech';
     notifyListeners();
     
     try {
-      // Validate password match
+      
       if (password != confirmPassword) {
         return {'success': false, 'message': 'Passwords do not match'};
       }
