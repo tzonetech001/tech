@@ -4,6 +4,8 @@ import 'auth_provider.dart';
 import 'register_screen.dart';
 import 'home_screen.dart';
 
+
+
 class LoginScreen extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
