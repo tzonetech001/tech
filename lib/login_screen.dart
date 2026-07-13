@@ -48,7 +48,7 @@ class LoginScreen extends StatelessWidget {
                       Text(
                         'Welcome Back!',
                         style: TextStyle(
-                          fontSize: 26,
+                          fontSize: 24,
                           fontWeight: FontWeight.bold,
                           color: Colors.blue.shade900,
                         ),
